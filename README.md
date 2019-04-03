@@ -17,3 +17,9 @@ sdr_radio<br>
 
 pdf_cover<br>
 超文本转pdf
+
+comics_downloader<br>
+漫画下载器
+
+k-means
+k-means算法处理图像
