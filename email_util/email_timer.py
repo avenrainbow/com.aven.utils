@@ -57,9 +57,9 @@ from email.mime.text import MIMEText
 
 def sender():
     _user = "525868012@qq.com"
-    _pwd  = "dnthfmxzffhobgei"
+    _pwd  = "xxxxxxxx"
     # "uxtbviubdgoubhib"
-    _to   = "wulj@winhong.com"
+    _to   = "xxx@xx.com"
 
     global host_info
 
