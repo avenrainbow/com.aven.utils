@@ -12,9 +12,6 @@ leap motion驱动程序
 data_base<br>
 数据库连接程序
 
-flask_lib<br>
-Flask框架
-
 sdr_radio<br>
 软件定义无线电
 
