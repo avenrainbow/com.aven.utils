@@ -26,3 +26,6 @@ k-means算法处理图像
 
 Neurons<br>
 神经网络
+
+raspberry<br>
+树莓派
