@@ -21,5 +21,8 @@ pdf_cover<br>
 comics_downloader<br>
 漫画下载器
 
-k-means
+k-means<br>
 k-means算法处理图像
+
+Neurons<br>
+神经网络
