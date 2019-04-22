@@ -72,7 +72,6 @@ def set_pigpio_pin_state():
     global pi_gpio_host
     global pi_gpio_port
     pi = pigpio.pi(pi_gpio_host, pi_gpio_port)
-
     pi.set_mode(pi_gpio_pin, state)
     pi.set_PWM_dutycycle(pi_gpio_pin, dutycycle)
     pi.set_PWM_frequency(pi_gpio_pin, frequency)
