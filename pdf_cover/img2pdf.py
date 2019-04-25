@@ -3,7 +3,7 @@ import fitz
 import os
 import fnmatch
 
-path = "D:/BaiduNetdiskDownload/《少女zm旅行》漫画/《少女终末旅行》漫画"
+path = "D:/BaiduNetdiskDownload/gunslinger girl/gunslinger girl/[Comic][gunslingergirl][REX3688]Vol_15"
 
 def pic2pdf(file_name):
     file_co = str(file_name)
@@ -23,9 +23,11 @@ def pic2pdf(file_name):
     doc.save(base_patch + target_fileName)                   # 保存pdf文件
     doc.close()
 
-
-if __name__ == '__main__':
+def listPath():
     for name in os.listdir(path):
         print name
         pic2pdf(name)
+
+if __name__ == '__main__':
+    listPath()
 
